@@ -8,75 +8,93 @@
 <body>
     <div class="container">
         <div class="info">
-            <img src="tnR7tysA_iE.jpg" alt="Моя фотка"  class="ava">
+            <img src="photo_2023-02-02_23-07-34.jpg" alt="Моя фотка"  class="ava">
+            
+            <div class="info-text">
             <h1>Юсупов Альнур</h1>
             <p>  Я студент <strong>Оренбургского государственного университета</strong> ,
             факультета математики и информационных технологий, 
-            специальность "программная инженерия" </p>
+            специальность "Программная инженерия" </p>
             <p>Сейчас я на каникулах и хочу изучить веб-разработку</p>
-            <h4>Мои социальные сети: </h4>
-            <a href="https://vk.com/id528644092" target="_blank" >VK</a>             |
-            <a href="https://t.me//Alnur_Yusupov" target="_blank">Telegram</a>       
+            <h3>Мои социальные сети: </h3>
+            <a href="https://vk.com/id528644092" target="_blank" >VK</a>  
+           |
+            <a href="https://t.me//Alnur_Yusupov" target="_blank">Telegram</a>
+            </div>       
         </div>    
-
-            
-        <hr>
-        <h2>Мои хобби: </h2>
-        <ol type="1">
-            <li>Шахматы</li>
-            <li>...</li>
-        </ol>
-        <hr>
-        <h2>2 страница сайта</h2>
-        <a href="page2.html" target="_blank">перейти</a>
-        <hr>
-        <h2>Необходимые знания для Web-разработки</h2>
-        <table border="2">
-            <thead>
-                <tr>
-                    <th>номер</th>
-                    <th>название</th>
-                    <th>степень усвоения</th>
-                </tr>
-            </thead>
-            <tbody> 
-                <tr>
-                    <td>1</td>
-                    <td>html</td>
-                    <td>3/10</td>
-                </tr>
-            </tbody>
-        <tfoot></tfoot>
-        </table>
-        <h2>Связаться со мной</h2>
-        <form action="/page2.html">
-            <label for="name"> Имя </label>
-            <input type="text" id="name" placeholder="Введите свое имя"> 
-            <!-- Попрактиковаться с аргументами input -->
-            <br>
-            <br>
-            <label for="email"> email </label>
-        
-            <input type="text" id="email" placeholder="Введите email"> <!-- value="@mail.com"> -->
-            <br>
-            <br>
-            <label for="text">ваше сообщение</label>
-            <br>
-            <br>
-            <textarea name="" id="text" cols="30" rows="10"></textarea>
-            <br>
-            <br>
-            <input type="submit" value="Связаться">
-            <!-- <label for=""></label>
-            <input type="text" id="name" placeholder="Введите свое имя"> -->
-        </form>
-        <div class="box-model">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+        <div class="card bg-yellow"> 
+            <h2>Мои хобби: </h2>
+            <ol class="list" >
+                <li>Шахматы</li>
+                <li>Экстремальная глажка</li>
+                <li>Роспись пряников</li>
+                <li>Езда на велосипеде по болоту в маске с трубкой</li>
+                <li>Ремонт Экскаватора</li>
+                <li>Маникюр</li>
+            </ol>
+        </div>          
+            <div class="card bg-green">
+            <h2>2 страница сайта</h2>
+            <a href="page2.html" target="_blank">перейти</a>           
         </div>
-        <div style="margin-bottom: 500px;"></div>
+        <div class="card bg-red"> 
+            <h2>Необходимые знания для Web-разработки</h2>
+            <table class="table" >
+                <thead>
+                    <tr>                     
+                        <th> Название</th>
+                        <th> Степень усвоения</th>
+                    </tr>  
+                </thead>
+                <tbody >
+                    <tr>
+                        <td>HTML</td>
+                        <td>3/10</td>
+                    </tr>
+                    <tr> 
+                        
+                        <td>CSS</td>
+                        <td>?</td>
+                    </tr>
+                    <tr>
+                        
+                        <td>JS</td>
+                        <td>?</td>
+                    </tr>
+                    <tr>
+                        
+                        <td>Node.js</td>
+                        <td>??</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="contact"> 
+            <h2>Связаться со мной</h2>
+            <form action="/page2.html">
+                <div class="row">
+                    <div class="form-group">                     
+                        <label   label for="name"> Имя </label>
+                        <input type="text" id="name" placeholder="Введите свое имя">                     
+                    </div>               
+                    <div class="form-group">
+                        <label for="email"> email </label>         
+                        <input type="text" id="email" placeholder="Введите email">
+                    </div>
+                </div>
+                <div class="form-group">            
+                    <label for="text">Cообщение</label>           
+                    <textarea class="message" id="text" cols="2" rows="15" placeholder="ваше сообщение"></textarea>
+                </div>
+                <input class="btn" type="submit" value="Отправить">                        
+            </form>
+            <div class="position">
+                <div class="box"></div>
+            </div>
+        </div>
+        
 </div>
+
+<div style="margin-bottom: 500px;"></div>
 </body>
 </html>
